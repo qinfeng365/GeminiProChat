@@ -218,12 +218,12 @@ export default () => {
         <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-100">
           <div class="bg-white rounded-md shadow-md p-6">
             <div class="flex items-center justify-between">
-              <h3 class="text-lg font-medium">Coming soon</h3>
+              <h3 class="text-lg font-medium">呜呜呜，轻风开发部帕鲁已经在做了~</h3>
               <button onClick={() => setShowComingSoon(false)}>
                 <IconX />
               </button>
             </div>
-            <p class="text-gray-500 mt-2">Chat with picture is coming soon!</p>
+            <p class="text-gray-500 mt-2">图片聊天功能即将推出！尽情期待叭~</p>
           </div>
         </div>
       </Show>
@@ -249,8 +249,8 @@ export default () => {
         when={!loading()}
         fallback={() => (
           <div class="gen-cb-wrapper">
-            <span>AI is thinking...</span>
-            <div class="gen-cb-stop" onClick={stopStreamFetch}>Stop</div>
+            <span>AI正在思考中呢...等一会叭~</span>
+            <div class="gen-cb-stop" onClick={stopStreamFetch}>停止思考~</div>
           </div>
         )}
       >
